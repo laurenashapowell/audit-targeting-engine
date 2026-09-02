@@ -34,9 +34,9 @@ All figures are on a 36,000-pick holdout, split forward in time, with a 3.8% err
 | Logistic regression, engineered | 0.186 | 8.1x | 5.9x | 29.7% |
 | **Gradient boosted, engineered** | **0.195** | **8.4x** | **5.9x** | **29.5%** |
 
-![Capture curve](outputs/capture_curve.png)
+![Capture curve](audit-targeting-engine/outputs/capture_curve.png)
 
-![Lift by budget](outputs/lift_by_budget.png)
+![Lift by budget](audit-targeting-engine/outputs/lift_by_budget.png)
 
 ### Three things worth noticing
 
