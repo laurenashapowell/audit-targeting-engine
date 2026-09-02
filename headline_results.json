@@ -1,0 +1,16 @@
+{
+  "backend": "sklearn.HistGradientBoosting",
+  "n_test": 36000,
+  "test_error_rate": 0.03752777777777778,
+  "lift_at_5pct_vs_random": 5.891931902294597,
+  "lift_multiple_vs_incumbent_at_5pct": 4.471910112359551,
+  "equivalent_budget": {
+    "baseline_budget": 0.1,
+    "target_capture": 0.13545521835677277,
+    "model_budget": 0.014150375939849625,
+    "labor_reduction": 0.8584962406015038
+  },
+  "annual_saving_vs_incumbent_at_5pct": 3604999.999999998,
+  "cost_optimal_budget_frac": 0.2,
+  "cost_at_optimal_budget": 10000000.0
+}
