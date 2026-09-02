@@ -34,9 +34,6 @@ All figures are on a 36,000-pick holdout, split forward in time, with a 3.8% err
 | Logistic regression, engineered | 0.186 | 8.1x | 5.9x | 29.7% |
 | **Gradient boosted, engineered** | **0.195** | **8.4x** | **5.9x** | **29.5%** |
 
-![Capture curve](audit-targeting-engine/outputs/capture_curve.png)
-
-![Lift by budget](audit-targeting-engine/outputs/lift_by_budget.png)
 
 ### Three things worth noticing
 
@@ -52,7 +49,6 @@ All figures are on a 36,000-pick holdout, split forward in time, with a 3.8% err
 
 Lift is not a business outcome. `src/cost_model.py` converts a ranked list into total cost of quality, which is inspection labor plus the cost of errors that escape.
 
-![Cost curve](outputs/cost_curve.png)
 
 Assumptions are explicit and adjustable in `CostAssumptions`, and they are meant to be replaced with real figures in week one of an engagement:
 
